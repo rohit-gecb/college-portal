@@ -23,7 +23,7 @@ function ResetPassword() {
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/reset-Password",
+        "https://college-portal-hjqi.onrender.com/api/reset-password",
         { email, newPassword }
       );
 

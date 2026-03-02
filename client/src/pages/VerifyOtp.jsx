@@ -26,7 +26,7 @@ function VerifyOtp() {
   const handleVerify = async () => {
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/verify-otp",
+        "https://college-portal-hjqi.onrender.com/api/verify-otp",
         {
           email,
           otp: otp.join("")

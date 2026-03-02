@@ -30,7 +30,7 @@ function Signup() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/signup",
+        "https://college-portal-hjqi.onrender.com/api/signup",
         formData
       );
 

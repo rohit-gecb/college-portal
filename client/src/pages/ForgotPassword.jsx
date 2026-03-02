@@ -13,7 +13,7 @@ function ForgotPassword() {
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/forgot-password",
+        "https://college-portal-hjqi.onrender.com/api/forgot-password",
         { email }
       );
 

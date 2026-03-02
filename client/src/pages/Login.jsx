@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
+import { motion } from "framer-motion";
 
 function Login() {
   const navigate = useNavigate();
@@ -16,7 +17,7 @@ function Login() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/login",
+        "https://college-portal-hjqi.onrender.com/api/login",
         { email, password }
       );
 

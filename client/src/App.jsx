@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from "./pages/login";
+import Login from "./pages/Login";
 import Signup from "./pages/Signup";
-import VerifyOtp from "./pages/verifyotp";
+import VerifyOtp from "./pages/VerifyOtp";
 import ForgotPassword from "./pages/ForgotPassword";
-import VeryfyResetOtp from "./pages/verifyresetotp";
-import ResetPassword from "./pages/resetpassword";
+import VeryfyResetOtp from "./pages/VerifyResetOtp";
+import ResetPassword from "./pages/ResetPassword";
 import Dashboard from "./pages/Dashboard"; 
 function App() {
   return (
